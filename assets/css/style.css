@@ -674,3 +674,20 @@ footer {
   #head-section>div>div>div h1 {
     /*text-decoration: underline;*/
   }
+
+.panel-heading {
+  background: white!important;
+  border-color: white!important;
+  color: black!important;
+}
+
+
+.panel {
+  box-shadow: 0 2px 0 rgba(0,0,0,0.05) !important;
+  margin-bottom: 24px !important;
+}
+
+.btn-info {
+  background: #f21a23 !important;
+}
+
