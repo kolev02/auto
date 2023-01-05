@@ -18,30 +18,30 @@ $(document).ready(function() {
   /* Smoothscroll js
   -----------------------------------------------*/
     $(function() {
-        $('.navbar-default a').bind('click', function(event) {
-            var $anchor = $(this);
-            $('html, body').stop().animate({
-                scrollTop: $($anchor.attr('href')).offset().top - 49
-            }, 1000);
-            event.preventDefault();
-        });
+        //$('.navbar-default a').bind('click', function(event) {
+        //    var $anchor = $(this);
+        //    $('html, body').stop().animate({
+        //        scrollTop: $($anchor.attr('href')).offset().top - 49
+        //    }, 1000);
+        //    event.preventDefault();
+        //});
     });
 
 
  /* Home Slideshow Vegas
   -----------------------------------------------*/
-  //$(function() {
-  //  $('body').vegas({
-  //      slides: [
-  //      { src: '../../assets/images/slide-img1.jpg' },
-  //      { src: '../../assets/images/slide-img2.jpg' },
-  //      { src: '../../assets/images/slide-img3.jpg' }
-  //      ],
-  //      timer: false,
-  //      transition: [ 'zoomIn', ],
-  //      animation: ['kenburns']
-  //  });
-  //});
+  $(function() {
+    //$('body').vegas({
+    //    slides: [
+    //    { src: '../../assets/images/slide-img1.jpg' },
+    //    { src: '../../assets/images/slide-img2.jpg' },
+    //    { src: '../../assets/images/slide-img3.jpg' }
+    //    ],
+    //    timer: false,
+    //    transition: [ 'zoomIn', ],
+    //    animation: ['kenburns']
+    //});
+  });
 
 
   /* Team carousel

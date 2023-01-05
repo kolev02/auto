@@ -67,6 +67,7 @@
 			window.classie = classie;
 		}
 
+    console.log($(location).attr('pathname'));
 		[].slice.call( document.querySelectorAll( 'ul.grid > li > figure' ) ).forEach( function( el, i ) {
 			el.querySelector( 'figcaption > a' ).addEventListener( 'touchstart', function(e) {
 				e.stopPropagation();
