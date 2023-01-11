@@ -301,7 +301,7 @@ a {
 .navbar-default .navbar-toggle:focus { 
   background-color: transparent;
 }
-
+/*
 @media screen and (max-width: 768px) {
   
   .navbar-default .navbar-nav li a span:before {
@@ -318,7 +318,7 @@ a {
     transform: scaleX(1);
   }
 }
-
+*/
 
 
 /*---------------------------------------
